@@ -11,17 +11,12 @@ const { getTheme, setTheme } = useSelectTheme();
 
 const customColor = computed(() => {
   return `background-color: ${props.dotColor}`;
-}); // phai la object co key la string ms dc
+});
 
 function changeTheme(newTheme) {
   const currentTheme = getTheme();
 
-  // qtrong la themeName no trung ten vs class :root.themeName
   if (currentTheme !== newTheme) {
-    // console.log(`@/assets/css/theme-color/${currentTheme}-theme.css`);
-    // delete require.cache[
-    //   require.resolve(`@/assets/css/theme-color/${currentTheme}-theme.css`)
-    // ];
     setTheme(newTheme);
   }
 }

@@ -35,7 +35,7 @@ const props = defineProps(["dotColor"]);
 
 const customColor = computed(() => {
   return `background-color: ${props.dotColor}`;
-}); // phai la object co key la string ms dc
+});
 </script>
 
 <style scoped>

@@ -19,16 +19,9 @@ const purple = "#7e4c74";
 </script>
 
 <style scoped>
-/* h2 {
-  line-height: 0;
-} */
-
 .theme-dots {
   display: flex;
   vertical-align: top;
-  /* height: 110%;
-  margin-top: 20px; */
-  /* margin-bottom: 20px; */
 }
 
 i {

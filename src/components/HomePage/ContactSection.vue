@@ -1,6 +1,4 @@
 <template>
-  <!-- <Transition name="fade"> -->
-  <!-- v-if="showElement"  -->
   <div id="contact-me" class="secondary-background" v-motion-fade-visible>
     <h1 style="text-align: center">Get in touch</h1>
     <div id="contact-form">
@@ -17,20 +15,12 @@
       <textarea v-model="msg" name="message" class="input-field"></textarea>
 
       <button id="submit-btn" @click="handleSubmit">SEND</button>
-      <!-- <input
-        type="submit"
-        formtarget="_self"
-        value="SEND"
-        id="submit-btn"
-        @click="handleSubmit"
-      /> -->
     </div>
   </div>
 
   <TheToaster :show-toaster="showNotification" :is-danger="hasErrors">
     {{ toasterMsg }}
   </TheToaster>
-  <!-- </Transition> -->
 </template>
 
 <script setup>
@@ -49,8 +39,6 @@ const toasterMsg = ref("");
 const hasErrors = ref(true);
 
 function handleSubmit() {
-  // console.log("hihi");
-
   if (!name.value || !subject.value || !email.value || !msg.value) {
     toasterMsg.value = "Please fill in all fields!";
     hasErrors.value = true;
@@ -108,7 +96,6 @@ h1 {
   max-width: 600px;
 
   margin: 0 auto;
-  // margin-bottom: 50px;
   padding: 15px;
 
   border: 1px solid var(--border-color);
@@ -138,7 +125,6 @@ h1 {
   #submit-btn {
     background-color: var(--border-color);
     font-family: "Poppins", sans-serif;
-    // font-family: "Encode Sans SC", sans-serif;
     font-weight: bolder;
     color: #fff;
     width: 100%;

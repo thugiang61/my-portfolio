@@ -104,22 +104,10 @@ const nextProjectLink = computed(
   () => `/projects/${allProjects[nextProjectIndex.value].id}`,
 );
 
-// function arrowClicked() {
-//   showElement.value = false;
-
-//   const projectBody = document.getElementById("project-body");
-//   // console.log(projectBody);
-//   if (projectBody.scrollTop !== 0) projectBody.scrollTop = 0;
-
-//   // wait to get next/ previous project
-//   setTimeout(() => (showElement.value = true), 1500);
-// }
-
 function arrowClicked(link) {
   showElement.value = false;
 
   const projectBody = document.getElementById("project-body");
-  // console.log(projectBody);
   if (projectBody.scrollTop !== 0) projectBody.scrollTop = 0;
 
   setTimeout(() => router.push(link), 500);
@@ -130,20 +118,7 @@ function arrowClicked(link) {
 
 onMounted(() => {
   setTimeout(() => (showElement.value = true), 500);
-  //  window.addEventListener('keydown', (e) => {
-  //       if (e.key == 'Escape') {
-  //         this.showModal = !this.showModal;
-  //       }
-  //     });
 });
-
-// onUnmounted
-
-// console.log(
-//   currentProjectIndex.value,
-//   currentProject,
-//   previousProjectIndex.value,
-// );
 </script>
 
 <style scoped lang="scss">
@@ -151,12 +126,10 @@ onMounted(() => {
 .grid-layout {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  // transition: all 0.4s ease-out;
 }
 
 .project-details {
   border: 4px solid var(--border-color);
-  /* border-bottom: 0; */
   margin: 10px 30px;
   box-shadow: -3px 1px 3px -1px rgb(0 0 0 /75%);
   position: relative;
@@ -191,8 +164,6 @@ onMounted(() => {
 }
 
 .grid-layout {
-  /* overflow: hidden;
-  height: 87vh; */
   background-color: var(--secondary-background-color);
 }
 
@@ -204,8 +175,6 @@ onMounted(() => {
 
     .left-arrow,
     .right-arrow {
-      // padding: 2.5px 7px 5px 12px;
-      // margin-bottom: 40px;
       width: 50px;
       height: 50px;
       position: relative;
@@ -215,22 +184,12 @@ onMounted(() => {
       top: 0;
       left: 55%;
 
-      // padding: 5px 10px;
       padding-right: 8px;
-
-      // top: 14%;
-      // left: 60%;
     }
 
     .right-arrow {
       top: 0;
       left: 60%;
-
-      // padding:;
-      //   bottom: 45%;
-      //   right: -9%;
-
-      //   // bottom: 81%;
     }
   }
 }

@@ -19,18 +19,3 @@
 .slide-fade-leave-to{
   transform: translateX(40px);
 }
-
-/* .slide-in-enter-from {
-  width: 0px;
-}
-
-.slide-in-enter-active {
-  transition: all 0.8s ease-out;
-  transition-delay: 0.8s;
-}
-
-.slide-in-leave-to{}
-
-.slide-in-leave-active{
-
-} */

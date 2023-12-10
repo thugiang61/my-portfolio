@@ -1,5 +1,4 @@
 
-// @media screen and (max-width: 800px) {
 @media (max-width: 800px) {
   .grid-layout {
     grid-template-areas: "left-column" "right-column";
@@ -26,17 +25,9 @@
     max-width: 70% !important;
   }
 }
-
-
-// @mixin moblie { @media (max-width: 750px) {
-  //   // .header-title {
-    //   //   font-size: 18px !important;
-    //   // }
-    //   @content;
-    // }
-    // }
     
 // TheHeader, ProjectDetails, ProjectInfo, ProjectGif
+
 @media (max-width: 750px) {
   .profile-picture {
     width: 200px !important;
