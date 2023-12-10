@@ -1,0 +1,20 @@
+:root.purple{
+  /* some value that white theme has in default but other themes don't */
+  --primary-background-color: #69285c;
+  --secondary-background-color: #b07ba6;
+  
+  background-color: var(--primary-background-color);
+
+  --text-color: #fff;
+  --anchor-color: #1f7d97;
+  --border-color: #945656;
+
+  --preview-shadow-background-color: #b58dad;
+
+  --skills-list-background-color: #2a232c73;
+
+  --success-notification-background-color:  #2aca3e8c;
+  --danger-notification-background-color:  #f53737;
+
+  --input-color: #dfb2d74d;
+}

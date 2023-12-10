@@ -1,0 +1,61 @@
+
+// @media screen and (max-width: 800px) {
+@media (max-width: 800px) {
+  .grid-layout {
+    grid-template-areas: "left-column" "right-column";
+    grid-template-columns: 1fr;
+  }
+
+  .right-column{
+    padding-bottom: 25px;
+  }
+  
+  .preview-shadow,
+  .preview {
+    margin-bottom: 40px;
+   }
+
+  .header {
+    &.sticky {
+      width: 95% !important;
+    }
+    // color: #000
+  }
+
+  #contact-form {
+    max-width: 70% !important;
+  }
+}
+
+
+// @mixin moblie { @media (max-width: 750px) {
+  //   // .header-title {
+    //   //   font-size: 18px !important;
+    //   // }
+    //   @content;
+    // }
+    // }
+    
+// TheHeader, ProjectDetails, ProjectInfo, ProjectGif
+@media (max-width: 750px) {
+  .profile-picture {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .skills-list {
+    width: 80% !important;
+  }
+}
+
+@media (min-width: 1500px) {
+ .project-info {
+    .project-name {
+      top: 8% !important;
+    }
+
+    .project-body {
+      height: 72vh !important;
+    }
+ }
+}

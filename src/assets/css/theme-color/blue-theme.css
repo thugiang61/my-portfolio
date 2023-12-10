@@ -1,0 +1,20 @@
+:root.blue{
+  /* some value that white theme has in default but other themes don't */
+  --primary-background-color: #212f3e;
+  --secondary-background-color: #14365e;
+
+  background-color: var(--primary-background-color);
+
+  --text-color: #fff;
+  --anchor-color: #17a2b8;
+  --border-color: #6cdfed;
+  
+  --preview-shadow-background-color: #10161c;
+
+  --skills-list-background-color: #111921;
+
+  --success-notification-background-color:  #2aca3e8c;
+  --danger-notification-background-color:  #f53737;
+
+  --input-color: #2b7cd866;
+}

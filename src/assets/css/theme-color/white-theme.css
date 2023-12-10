@@ -1,0 +1,18 @@
+:root.white{
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #fff;
+
+  background-color: var(--primary-background-color);
+
+  --anchor-color: #17a2b8;
+  --border-color: #5d5d5d;
+
+  --preview-shadow-background-color: #e5e5e5;
+
+  --skills-list-background-color: #f0ead6;
+
+  --success-notification-background-color:  #2aca3e8c;
+  --danger-notification-background-color:  #ef7070;
+
+  --input-color: #c8c8c8;
+}

@@ -1,0 +1,20 @@
+:root.teal{
+  /* some value that white theme has in default but other themes don't */
+  --primary-background-color: #4fcfb6;
+  --secondary-background-color: #42a287;
+  
+  background-color: var(--primary-background-color);
+
+  --text-color: #fff;
+  --anchor-color: #2b7499;
+  --border-color: #694f23;
+  
+  --preview-shadow-background-color: #44655c;
+
+  --skills-list-background-color: #2d4043a6;
+  
+  --success-notification-background-color:  #2641298c;
+  --danger-notification-background-color:  #f53737;
+  
+  --input-color: #42676099;
+}
