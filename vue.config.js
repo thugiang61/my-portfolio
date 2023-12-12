@@ -4,9 +4,8 @@ module.exports = defineConfig({
   transpileDependencies: true,
   configureWebpack: {
     output: {
-      publicPath:
-        process.env.NODE_ENV === "production" ? "/my-portfolio/" : "/",
+      publicPath: "/portfolio/",
     },
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/my-portfolio/" : "/",
+  publicPath: "/portfolio/",
 });
