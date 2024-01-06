@@ -45,27 +45,13 @@ const customBordercolor = computed(
 </script>
 
 <style scoped lang="scss">
-// .preview-shadow,
-// .preview {
-//   width: 340px;
-//   height: 200px;
-// }
-
 .preview-shadow {
   position: relative;
-  // background
-  // filter: blur(1px) brightness(60%);
-  // margin-bottom: 40px;
-  /* margin: 100px 0 0 30px; */
 
   .preview {
     position: absolute;
     top: 20px;
     left: 20px;
-    // filter: blur(0) brightness(100%) !important;
-
-    // text-align: center;
-    // padding: 10px 10px;
 
     .corner {
       width: 14px;
@@ -97,10 +83,6 @@ const customBordercolor = computed(
       bottom: -7px;
       right: -7px;
     }
-
-    // p {
-    //   font-size: 20px;
-    // }
   }
 }
 </style>

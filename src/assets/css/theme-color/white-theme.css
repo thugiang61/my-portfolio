@@ -1,4 +1,5 @@
 :root.white{
+  /* some value that white theme has in default but other themes don't */
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #fff;
 

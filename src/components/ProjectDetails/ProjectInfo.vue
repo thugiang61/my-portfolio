@@ -1,9 +1,4 @@
 <template>
-  <!-- <style>
-    :root{
-      --project-theme-color: {{project.color}}
-    }
-  </style> -->
   <div class="project-info">
     <Transition name="slide-fade">
       <h1 v-if="showElement" class="project-name">{{ project.name }}</h1>
@@ -60,37 +55,18 @@
 <script setup>
 import { defineProps } from "vue";
 
-// const props = defineProps(["project"]);
 defineProps(["project", "showElement"]);
-// const customProjectColor = computed(() => {
-//   return `--project-theme-color: ${props.project.color}`;
-// });
-// watch(
-//   () => props.project.color,
-//   async (newVal) => {
-//     await nextTick(() =>
-//       this.root.style.setProperty("--project-theme-color", `${newVal}`),
-//     );
-//   },
-// );
-// const projectColor = props.project.color;
 </script>
 
 <style scoped lang="scss">
 .project-name {
   width: fit-content;
-  /* height: fit-content; */
   background-color: var(--project-theme-color);
   padding: 0 10px 0 50px;
-  /* padding-top: 0; */
-  /* margin: 10; */
   font-size: 55px;
   color: #fff;
-  // padding-top: 0;
   box-shadow: 12px 12px 3px -1px rgb(0 0 0 / 75%);
 
-  // position: relative;
-  // left: -30px;
   position: fixed;
   top: 10%;
   left: 0;
@@ -101,9 +77,6 @@ defineProps(["project", "showElement"]);
     height: 0px;
 
     border-style: solid;
-    // border-width: 10px 15px 10px 0;
-    // // border-color: var(--teal-green);
-    // border-color: transparent #dd4397 transparent transparent;
     border-width: 15px;
     border-color: transparent var(--project-theme-color)
       var(--project-theme-color) transparent;
@@ -116,17 +89,11 @@ defineProps(["project", "showElement"]);
   }
 }
 
-// .project-name
-
 .project-body {
   margin: 0 1% 0 6%;
   margin-top: 120px;
   height: 67vh;
   overflow: auto;
-
-  // &::-webkit-scrollbar {
-  //   display: none;
-  // }
 
   &::-webkit-scrollbar {
     width: 13px;
@@ -134,7 +101,6 @@ defineProps(["project", "showElement"]);
 
   &::-webkit-scrollbar-track {
     display: none;
-    // background-color: transparent;
   }
 
   &::-webkit-scrollbar-thumb {
@@ -184,11 +150,8 @@ defineProps(["project", "showElement"]);
     }
 
     .project-body {
-      // margin: 0 2px 0 2px;
-      // width: 100%;
       height: 100%;
       margin-top: 0;
-      // text-overflow: ;
 
       label {
         font-size: 15px;

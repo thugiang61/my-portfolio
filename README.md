@@ -1,4 +1,4 @@
-# portfolio
+# my-portfolio
 
 ## Project setup
 ```

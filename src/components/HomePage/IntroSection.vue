@@ -1,6 +1,4 @@
 <template>
-  <!-- <div id="intro" class="section-border-bottom" v-motion-slide-visible-right>
-    <h1 class="intro-title">Hi, I'm Giang Nguyen</h1> -->
   <div id="intro" class="section-border-bottom">
     <Transition name="slide-fade">
       <div
@@ -31,8 +29,6 @@ onMounted(() => (showElement.value = true));
 .intro-title {
   font-size: 4rem;
   text-align: center;
-  // width: fit-content;
-  // background-color: var(--primary-background-color);
 }
 
 .intro-body {

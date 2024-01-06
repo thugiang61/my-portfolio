@@ -41,7 +41,6 @@ input::placeholder, textarea::placeholder {
   display: grid;
   grid-template-areas: "left-column right-column";
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 3em 30em; */
 }
 
 .intro-info {
@@ -59,7 +58,6 @@ input::placeholder, textarea::placeholder {
 .center {
   display: grid;
   justify-items: center;
-  /* align-items: center; */
   align-content: center;
 }
 

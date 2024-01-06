@@ -22,11 +22,6 @@
         :project-name="workProject.name"
         :project-id="workProject.id"
       />
-
-      <!-- <img :src="homemadeProject.src" :alt="homemadeProject.name" class="project-img" />
-    <div class="project-name">
-      <p>{{ homemadeProject.name }}</p>
-    </div> -->
     </div>
 
     <p>During my internship and working period,</p>
@@ -42,25 +37,6 @@ import ProjectCard from "@/components/HomePage/ProjectSection/ProjectCard";
 
 import { homemadeProjects } from "@/data/projects-details";
 import { workProjects } from "@/data/projects-details";
-
-// import { homemadeProjects, workProjects } from "@/data/projects-details";
-
-// const homemadeProjects =homemadeProjectsData
-
-// const workProjects = [
-//   {
-//     fileName: "api-customer-order",
-//     projectName: "Api customer order",
-//   },
-//   {
-//     fileName: "customer-order-web",
-//     projectName: "Customer order web",
-//   },
-//   {
-//     fileName: "plan-s",
-//     projectName: "Plan-s web",
-//   },
-// ];
 </script>
 
 <style scoped>
@@ -73,9 +49,6 @@ p {
 }
 
 .projects {
-  /* display: flex;
-  justify-content: center;
-  height: fit-content; */
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
   justify-content: space-evenly;

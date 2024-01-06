@@ -46,33 +46,20 @@ function getSrc() {
     var imgs = require.context("@/assets/imgs/", false, /\.png$/);
     return imgs("./" + props.projectId + ".png");
   }
-  // return require(`${props.project.src}`);
 }
 </script>
 
 <style scoped>
-/* .project-gif {
-  width: 550px;
-  height: 400px;
-} */
 i {
-  /* padding-left: 20px; */
-  /* text-align: center; */
   position: absolute;
   bottom: -10%;
   left: 20%;
-  /* margin: 0 auto; */
 }
 
 @media (max-width: 750px) {
-  img {
-    /* width: 80% !important; */
-  }
-
   i {
     left: 10%;
     font-size: 13px;
-    /* padding-bottom: 10px; */
   }
 }
 </style>

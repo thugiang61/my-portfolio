@@ -13,11 +13,6 @@
     </span>
 
     <div class="nav-bar">
-      <!-- <a href="#intro">Intro</a>
-      <a href="#about-me">About&nbsp;me</a>
-      <a href="#past-projects">Past&nbsp;projects</a>
-      <a href="#contact-me">Contact&nbsp;me</a> -->
-
       <div
         v-if="isOpenMenuList"
         :class="{ 'menu-list': true, mobile: isMobile }"
@@ -78,20 +73,12 @@ onUnmounted(() => {
 });
 
 function windowScrollDown() {
-  // console.log(window.scrollY, window.scrollY > SCROLL_Y_APPLY_STICKY);
-
   // luc apply sticky header thi vi cai css cua sticky header lam thay doi gtri scrollY nen nh pj se bi nhay nhay header luc keo xuong duoi cung, vi keo xuong ma hien thi scrollY lai tdoi ts cai gtri ko hien
   isSticky.value = window.scrollY > SCROLL_Y_APPLY_STICKY;
 }
-// const isMobile = computed(() => document.body.clientWidth < 740);
-// function toggleMenuIcon(menuIcon) {
-//   menuIcon.classList.toggle("clicked");
-// }
 </script>
 
 <style scoped lang="scss">
-// @import "@/assets/css/queries.scss";
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -103,8 +90,8 @@ function windowScrollDown() {
   &.sticky {
     position: fixed;
     top: 0;
-    left: 0; /*ko bik chỉnh top vs left này để làm j*/
-    z-index: 900; /*đưa lên phía trc?!?*/
+    left: 0;
+    z-index: 900;
     width: 97%;
   }
 
@@ -119,19 +106,12 @@ function windowScrollDown() {
     a {
       color: var(--text-color);
     }
-
-    // @include mobile {
-    //   font-size: 18px;
-    // }
   }
 
   .nav-bar {
-    // display: inline-block;
-    // cursor: pointer;
     position: relative;
 
     a {
-      // margin-right: 20px;
       margin-left: 50px;
       font-weight: bolder;
       font-size: 18px;
@@ -174,27 +154,21 @@ function windowScrollDown() {
     }
 
     .menu-list.mobile {
-      // float: left;
       display: flex;
       flex-direction: column;
-      // justify-content: center;
       align-items: center;
-      // margin-top: 20px;
       padding: 5px 20px;
       background-color: var(--primary-background-color);
-      // width: 10%;
 
       position: absolute;
       right: -58%;
-      top: 140%; // bottom: 5%;
+      top: 140%;
       z-index: 1;
-      // transition: 0.3s;
 
       a {
         padding: 5px 0;
         margin: 0 auto;
         width: 100%;
-        // border: 1px solid var(--border-color);
         text-align: center;
       }
     }
@@ -209,7 +183,7 @@ function windowScrollDown() {
   .header {
     &.sticky {
       padding-top: 30px;
-      width: 91% !important; // ? tsao lai co important ms dc nhi
+      width: 91% !important;
     }
   }
 }

@@ -23,7 +23,6 @@ export const homemadeProjects = [
     id: "music-player",
     color: teal,
     showGif: true,
-    // src: "@/assets/imgs/music-player.png",
     name: "Simple music player",
     year: "2021",
     technologies: "HTML, CSS, JS",
