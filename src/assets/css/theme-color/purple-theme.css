@@ -1,20 +1,20 @@
 :root.purple{
   /* some value that white theme has in default but other themes don't */
   --primary-background-color: #69285c;
-  --secondary-background-color: #b07ba6;
+  --secondary-background-color: #a0809a;
   
   background-color: var(--primary-background-color);
 
   --text-color: #fff;
-  --anchor-color: #1f7d97;
+  --anchor-color: #3278a7;
   --border-color: #945656;
 
-  --preview-shadow-background-color: #b58dad;
+  --preview-shadow-background-color: #ba7bae;
 
   --skills-list-background-color: #2a232c73;
 
   --success-notification-background-color:  #2aca3e8c;
-  --danger-notification-background-color:  #f53737;
+  --danger-notification-background-color:  #f53737cc;
 
   --input-color: #dfb2d74d;
 }

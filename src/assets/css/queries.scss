@@ -38,6 +38,10 @@
     
 // TheHeader, ProjectDetails, ProjectInfo, ProjectGif
 @media (max-width: 750px) {
+  .intro-title {
+    font-size: 2rem !important;
+  }
+
   .profile-picture {
     width: 200px !important;
     height: 200px !important;
@@ -57,5 +61,19 @@
     .project-body {
       height: 72vh !important;
     }
- }
+ } 
+ 
+ .header {
+    &.sticky {
+      padding-top: 30px;
+      width: 98% !important; // ? tsao lai co important ms dc nhi
+    }
+  }
+  
+  .project-details {
+    .preview-shadow, .preview, .preview > img {
+      width: 600px !important;
+      height: 500px !important;
+    }
+  }
 }

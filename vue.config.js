@@ -4,9 +4,14 @@ module.exports = defineConfig({
   transpileDependencies: true,
   configureWebpack: {
     output: {
-      publicPath:
-        process.env.NODE_ENV === "production" ? "/BulkyBookWeb2/" : "/",
+      publicPath: "/",
+      // publicPath: "/portfolio/",
     },
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/BulkyBookWeb2/" : "/",
+  // publicPath: "/portfolio/",
 });
+
+// module.exports = {
+//   publicPath: "/portfolio/",
+//   // publicPath: "/",
+// };

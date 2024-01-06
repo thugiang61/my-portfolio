@@ -1,20 +1,20 @@
 :root.teal{
   /* some value that white theme has in default but other themes don't */
-  --primary-background-color: #4fcfb6;
-  --secondary-background-color: #42a287;
-  
+  --primary-background-color: #72a597;
+  --secondary-background-color: #299b7b;
+
   background-color: var(--primary-background-color);
 
   --text-color: #fff;
-  --anchor-color: #2b7499;
-  --border-color: #694f23;
+  --anchor-color: #145e7d;
+  --border-color: #ccc;
   
-  --preview-shadow-background-color: #44655c;
+  --preview-shadow-background-color: #548074;
 
   --skills-list-background-color: #2d4043a6;
   
   --success-notification-background-color:  #2641298c;
-  --danger-notification-background-color:  #f53737;
+  --danger-notification-background-color:  #f53737cc;
   
-  --input-color: #42676099;
+  --input-color: #4c9480;
 }

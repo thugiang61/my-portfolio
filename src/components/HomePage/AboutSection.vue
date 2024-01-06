@@ -34,7 +34,9 @@
             What I have learnt at school and from my job as well as some
             subjects I'm studying hard right now:
             <!-- @click="readFile" -->
-            <a href="./NguyenThanhThuGiang_CV.pdf">My full CV/ résumé</a>
+            <a href="./NguyenThanhThuGiang_CV.pdf" target="_blank"
+              >My full CV/ résumé</a
+            >
           </p>
           <div class="skills-list">
             <!-- <div class="left-column"> -->
@@ -193,6 +195,7 @@ p {
 
   h1 {
     margin: 20px 0;
+    text-align: center;
   }
 
   p {

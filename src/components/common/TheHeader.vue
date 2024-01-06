@@ -137,9 +137,9 @@ function windowScrollDown() {
       font-size: 18px;
       transition: 0.2s;
 
-      // &:hover {
-      //   border-bottom: 4px solid var(--anchor-color);
-      // }
+      &:hover {
+        border-bottom: 4px solid var(--anchor-color);
+      }
     }
 
     .menu-icon {

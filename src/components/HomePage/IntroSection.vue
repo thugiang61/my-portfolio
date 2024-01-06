@@ -3,7 +3,12 @@
     <h1 class="intro-title">Hi, I'm Giang Nguyen</h1> -->
   <div id="intro" class="section-border-bottom">
     <Transition name="slide-fade">
-      <h1 v-if="showElement" class="intro-title">Hi, I'm Giang Nguyen</h1>
+      <div
+        v-if="showElement"
+        style="width: fit-content; margin: 0 auto; padding-right: 20px"
+      >
+        <h1 class="intro-title typewriter">Hi, I'm Giang Nguyen</h1>
+      </div>
     </Transition>
 
     <div class="intro-body">

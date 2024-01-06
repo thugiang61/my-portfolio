@@ -2,7 +2,7 @@
   <div
     id="past-projects"
     class="section-border-bottom"
-    v-motion-slide-visible-right
+    v-motion-slide-visible-top
   >
     <h1>Some of my past projects</h1>
     <h3>Homemade</h3>

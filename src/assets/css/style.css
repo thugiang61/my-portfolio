@@ -1,6 +1,6 @@
-/* :root {
-  --project-theme-color: #fff;
-} */
+:root {
+  --animation-duration: 3s;
+}
 
 body {
   margin: 0;
@@ -17,6 +17,15 @@ h1, h2, h3, h4, h5, span, p, i, li {
 a {
   text-decoration: none;
   color: var(--anchor-color);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--text-color);
+  opacity: 0.6;
+  font-size: larger;
+  font-family: "Poppins", sans-serif;
+  /* animation: 
+    typing .5s steps(20, end) infinite */
 }
 
 /* ko can class nay vi mac dinh la background-color bdau cua toan bo page la primary-color r */
@@ -57,3 +66,68 @@ a {
 .section-border-bottom {
   border-bottom: 6px solid var(--border-color);
 }
+
+/* ANIMATION */
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: .4em auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  animation: 
+    typing var(--animation-duration) steps(20, end) infinite,
+    blink-caret .75s step-end infinite;
+}
+
+/* .first{
+  animation-delay: 0s;
+}
+
+.second{
+  animation-delay: 3s;
+}
+
+.third{
+  animation-delay: 6s;
+} */
+
+@keyframes typing {
+  from { 
+    width: 0%; 
+    /* opacity: 1;  */
+  }
+  /* 50% { */
+    /* width: 47%; them luc 50% de chinh cho no ko bi chop tat nhu khi chi co from, to. 47% la vi cai width cua cai h1 47% cua parent la hien het r  */
+  /* } */
+  75% { 
+    width: 100%;
+  }
+  to { 
+    width: 100%;
+    /* width: fit-content; */
+    /* opacity: 1;  */
+  }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }  
+  50% { border-color: orange }
+}
+
+.slide-down {
+  overflow: hidden;
+  animation: slide-down var(--animation-duration) steps(30, end) infinite;
+}
+
+@keyframes slide-down {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+/* .blink {
+  animation: blink 3s ease-in infinite
+} */

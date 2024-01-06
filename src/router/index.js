@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
+// for dynamic import
 const HomePage = () => import("@/pages/HomePage");
 const ProjectDetails = () => import("@/pages/ProjectDetails");
 
@@ -17,6 +18,11 @@ const routes = [
     // name: "ProjectDetails",
     component: ProjectDetails,
   },
+  // {
+  //   path: "*",
+  //   name: "catchAll",
+  //   component: HomePage,
+  // },
 ];
 
 const router = createRouter({

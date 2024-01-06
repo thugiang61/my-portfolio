@@ -15,9 +15,7 @@ export const homemadeProjects = [
     technologies: "HTML, CSS, JS, Waypoints",
     summary:
       "A standalone web page, created specifically for an educational organization as well as advertising campaign. It’s where a visitor “lands” when they click on website's link, or ads. Here's a self-taught project I learned to improve my front-end skills, a page which is weirdy also named SelfTaught 📰",
-    challenges: [
-      "The first time I dig dive deep to multiple aspects of HTML, CSS",
-    ],
+    challenges: ["The first time I dig deep to multiple aspects of HTML, CSS"],
     githubUrl: "https://github.com/thugiang61/self-taught",
     webUrl: "https://thugiang61.github.io/self-taught",
   },
@@ -66,7 +64,7 @@ export const workProjects = [
     summary:
       "This platform provides transmission and tracking system for transport orders at every stage of their journey. This solution is accessible either through web access or by directly integrating it with Transportation Management System (TMS) using an API key 🚚",
     challenges: [
-      "Complicated business handling that intertweens between applications in TMS ",
+      "Complicated business handling that intertwines between applications in TMS ",
       "This is a very broad project that has been developing for more than 2 years and I had to analyze long document as well as wide range of code",
       "Study logistics business and TMS as well as Soget ecosystem ",
       "Working with quite limited tools because of safety reasons",

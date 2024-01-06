@@ -5,16 +5,39 @@
     <h1 style="text-align: center">Get in touch</h1>
     <div id="contact-form">
       <label>Name</label>
-      <input v-model="name" type="text" name="name" class="input-field" />
+      <input
+        v-model="name"
+        type="text"
+        name="name"
+        class="input-field"
+        placeholder="John Doe"
+      />
 
       <label>Subject</label>
-      <input v-model="subject" type="text" name="subject" class="input-field" />
+      <input
+        v-model="subject"
+        type="text"
+        name="subject"
+        class="input-field"
+        placeholder="Work offer from the USA"
+      />
 
       <label>Email</label>
-      <input v-model="email" type="text" name="email" class="input-field" />
+      <input
+        v-model="email"
+        type="text"
+        name="email"
+        class="input-field"
+        placeholder="john.doe@gmail.com"
+      />
 
       <label>Message</label>
-      <textarea v-model="msg" name="message" class="input-field"></textarea>
+      <textarea
+        v-model="msg"
+        name="message"
+        class="input-field"
+        placeholder="I'm really interested in your profile. Would you want to join a junior position in GameLoft's technology department?"
+      ></textarea>
 
       <button id="submit-btn" @click="handleSubmit">SEND</button>
       <!-- <input
@@ -49,8 +72,6 @@ const toasterMsg = ref("");
 const hasErrors = ref(true);
 
 function handleSubmit() {
-  // console.log("hihi");
-
   if (!name.value || !subject.value || !email.value || !msg.value) {
     toasterMsg.value = "Please fill in all fields!";
     hasErrors.value = true;

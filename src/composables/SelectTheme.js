@@ -12,7 +12,6 @@ export default function useSelectTheme() {
     // element.setAttribute("rel", "stylesheet");
     // element.setAttribute("type", "text/css");
 
-    console.log(theme);
     if (theme) {
       localStorage.setItem("theme", theme);
 
