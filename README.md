@@ -5,7 +5,7 @@ An online platform to showcase my relevant skills and experiences.
 
 Main sections: 
 - Introduction: Main goal and theme settings.
-- About me: My information as well as places to find me.
+- About me: My information as well as other places to find me.
 - Projects: My old and current projects.
 - Contact me: Send me messages and let's get connected!
 
@@ -34,7 +34,7 @@ The project is built with following main technologies: VueJS, Firebase, SCSS, Vu
 
     │   ├── `App.vue` : Root component of the application.
     
-    │   ├── `main.js` : Scripts to import necessary packages and run application .
+    │   ├── `main.js` : Scripts to import necessary packages and run the application.
     
     ├─ `.gitignore` : All files untracked by git.
     
@@ -42,7 +42,7 @@ The project is built with following main technologies: VueJS, Firebase, SCSS, Vu
     
     ├─ `jsconfig.json` :  All JS configuration is in here.
     
-    ├─ `package.json` :  Auto-generated file that lists all plugins and theirs meta data.
+    ├─ `package.json` :  Auto-generated file that lists all plugins and theirs meta data (version, description,...).
     
     ├─ `README.md` : Project documentation. Please read it before running the project.
     
@@ -81,9 +81,9 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-[contact-me]: [https://thugiang61.github.io/home#contact-me]
-[cloud-firestore]: [https://firebase.google.com/docs/firestore]
-[firestore-instruction]: [https://firebase.google.com/docs/firestore/quickstart]
-[firebase-config-file]: [https://github.com/thugiang61/thugiang61.github.io/blob/master/src/firebase/contacts.firestore.js]
-[contacts-file]: [https://github.com/thugiang61/thugiang61.github.io/blob/master/src/firebase/contacts.firestore.js]
-[firebase-console]: [https://console.firebase.google.com/u/0/]
+[contact-me]: https://thugiang61.github.io/home#contact-me
+[cloud-firestore]: https://firebase.google.com/docs/firestore
+[firestore-instruction]: https://firebase.google.com/docs/firestore/quickstart
+[firebase-config-file]: https://github.com/thugiang61/thugiang61.github.io/blob/master/src/firebase/config.js
+[contacts-file]: https://github.com/thugiang61/thugiang61.github.io/blob/master/src/firebase/contacts.firestore.js
+[firebase-console]: https://console.firebase.google.com/u/0/
