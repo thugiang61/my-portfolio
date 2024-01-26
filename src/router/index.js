@@ -16,11 +16,6 @@ const routes = [
     path: "/projects/:projectId",
     component: ProjectDetails,
   },
-  // {
-  //   path: "*",
-  //   name: "catchAll",
-  //   component: HomePage,
-  // },
 ];
 
 const router = createRouter({

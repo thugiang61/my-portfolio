@@ -5,13 +5,6 @@ module.exports = defineConfig({
   configureWebpack: {
     output: {
       publicPath: "/",
-      // publicPath: "/portfolio/",
     },
   },
-  // publicPath: "/portfolio/",
 });
-
-// module.exports = {
-//   publicPath: "/portfolio/",
-//   // publicPath: "/",
-// };

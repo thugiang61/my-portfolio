@@ -11,7 +11,7 @@ body * {
 }
 
 h1, h2, h3, h4, h5, span, p, i, li {
-  color: var(--text-color); /* white-theme doesn't have --text-color therefore this will have default black color */
+  color: var(--text-color); 
 }
 
 a {
@@ -24,14 +24,7 @@ input::placeholder, textarea::placeholder {
   opacity: 0.6;
   font-size: larger;
   font-family: "Poppins", sans-serif;
-  /* animation: 
-    typing .5s steps(20, end) infinite */
 }
-
-/* ko can class nay vi mac dinh la background-color bdau cua toan bo page la primary-color r */
-/* .primary-background {
-  background-color: var(--primary-background-color);
-} */ 
 
 .secondary-background {
   background-color: var(--secondary-background-color);
@@ -71,39 +64,20 @@ input::placeholder, textarea::placeholder {
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: .4em auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: .15em; Adjust as needed */
   animation: 
     typing var(--animation-duration) steps(20, end) infinite,
     blink-caret .75s step-end infinite;
 }
 
-/* .first{
-  animation-delay: 0s;
-}
-
-.second{
-  animation-delay: 3s;
-}
-
-.third{
-  animation-delay: 6s;
-} */
-
 @keyframes typing {
   from { 
     width: 0%; 
-    /* opacity: 1;  */
   }
-  /* 50% { */
-    /* width: 47%; them luc 50% de chinh cho no ko bi chop tat nhu khi chi co from, to. 47% la vi cai width cua cai h1 47% cua parent la hien het r  */
-  /* } */
   75% { 
     width: 100%;
   }
   to { 
     width: 100%;
-    /* width: fit-content; */
-    /* opacity: 1;  */
   }
 }
 
@@ -125,7 +99,3 @@ input::placeholder, textarea::placeholder {
     height: 100%;
   }
 }
-
-/* .blink {
-  animation: blink 3s ease-in infinite
-} */

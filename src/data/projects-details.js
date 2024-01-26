@@ -38,7 +38,7 @@ export const homemadeProjects = [
     showGif: true,
     name: "Bulky book web",
     year: "2021",
-    technologies: "C#, .NET, MVC, SQL Server Express LocalDB",
+    technologies: "C#, MVC, SQL LocalDB, Google OAuth, Azure Portal",
     summary:
       "One thing you must know about me, I love reading book! And I know other people do too! Therefore, I made this website to help a user can manage his/ her favorite books. You can store every books you care about here, along with theirs attributes such as status, price, your ratings, ... This will help your reading becomes a lot easier and more managable 📖",
     challenges: [
@@ -54,7 +54,7 @@ export const workProjects = [
     id: "api-customer-order",
     color: brown,
     showGif: false,
-    name: "Api customer order",
+    name: "API customer order",
     agency: "LogiVietfrance",
     year: "2022 - now",
     client: "SOGET SA",
@@ -98,9 +98,9 @@ export const workProjects = [
     client: "Logi Railway",
     role: "Full-stack developer",
     technologies:
-      "HTML, SCSS, ThreeJS, PDF, VueJS,  Buefy, Bulma, Firebase, .NET",
+      "HTML, SCSS, ThreeJS, jsPDF, VueJS,  Buefy, Bulma, Firebase, .NET",
     summary:
-      "This application is a tool where you can insert all the cagoes you want in order to analyze and get the most optimal way to load them on a container or barge. All loading plan will be generated on 3D model and you can interact with it as well as export the solution. This online software will help you plan your logistics easily and effectively 📦",
+      "This application is a tool where you can insert all the cagoes you want in order to analyze and get the most optimal way to load them on a container or a barge. All loading plan will be generated into 3D model and you can interact with it as well as export the solution. This online software will help you organize your logistics stock easily and effectively 📦",
     challenges: [
       "The loading logic is very hard and requires advanced mathematics calculation",
       "Learning TheeJS ro render models on the fly",

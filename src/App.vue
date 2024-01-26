@@ -1,8 +1,5 @@
 <template>
   <router-view></router-view>
-  <!-- <Transition name="fade">  -->
-  <!-- <HomePage /> -->
-  <!-- </Transition> -->
 </template>
 
 <script setup>

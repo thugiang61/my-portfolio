@@ -8,13 +8,13 @@
       <div class="border-bottom">
         <h2>More about me</h2>
         <p>
-          I build <b>user's interface</b> and love learning
+          I build <b>software applications</b> and love learning
           <b>foreign languages</b>, reading books and listening to music
         </p>
         <p>
           Most of my skills are self-taught and from work experiences, but I
           like and also <b>learn most from</b> interacting and studying with
-          each others
+          other people
         </p>
       </div>
 
@@ -24,7 +24,6 @@
           <p>
             What I have learnt at school and from my job as well as some
             subjects I'm studying hard right now:
-            <!-- @click="readFile" -->
             <a href="./NguyenThanhThuGiang_CV.pdf" target="_blank"
               >My full CV/ résumé</a
             >
@@ -54,7 +53,7 @@
         alt="github-profile"
       />
 
-      <h1>Find me on social media</h1>
+      <h1>Find me on social platform</h1>
       <p>
         Facebook:
         <a target="_blank" href="https://www.facebook.com/thugiang.nguyenthanh"
@@ -73,7 +72,11 @@
       <p style="text-align: center">
         Tel:
         <a @click="copyToClipboard(phone)">{{ phone }}</a>
+      </p>
+      <p>
         (Also&nbsp;my&nbsp;<a href="https://zalo.me/pc" target="_blank">Zalo</a
+        >&nbsp;and&nbsp;<a href="https:/whatsapp.com/" target="_blank"
+          >Whatsapp</a
         >&nbsp;number)
       </p>
     </div>

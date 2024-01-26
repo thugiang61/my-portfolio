@@ -12,15 +12,7 @@
 
       <div class="right-column center">
         <PreviewInfo width="340" height="200" show-corners>
-          <!-- class="one-line-typewriter" -->
           <h1>What I do</h1>
-          <!-- <div>
-            <p class="typewriter first">I study <b>Software Engineer</b> and</p>
-            <p class="typewriter second">I'm on my way to become a</p>
-            <p class="typewriter third">
-              professional <b>Full-stack</b> developer
-            </p>
-          </div> -->
           <p class="slide-down">
             I study <b>Software Engineer</b> and I'm on my way to become a
             professional <b>Full-stack</b> developer

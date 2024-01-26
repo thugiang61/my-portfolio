@@ -11,8 +11,6 @@
     </Transition>
 
     <TheHeader show-title />
-    <!-- style="position: fixed"  -->
-    <!-- {{ route.params.projectId }} -->
     <div class="grid-layout">
       <div class="left-column">
         <ProjectInfo :project="currentProject" :show-element="showElement" />
@@ -158,7 +156,7 @@ onMounted(() => {
   }
 
   .right-arrow {
-    bottom: 43.3%;
+    bottom: 41.8%;
     right: -2%;
   }
 }
@@ -190,6 +188,8 @@ onMounted(() => {
     .right-arrow {
       top: 0;
       left: 60%;
+
+      padding-right: 12px;
     }
   }
 }
