@@ -81,9 +81,9 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-[contact-me][https://thugiang61.github.io/home#contact-me]
-[cloud-firestore][https://firebase.google.com/docs/firestore]
-[firestore-instruction][https://firebase.google.com/docs/firestore/quickstart]
-[firebase-config-file][https://github.com/thugiang61/thugiang61.github.io/blob/master/src/firebase/contacts.firestore.js]
-[contacts-file][https://github.com/thugiang61/thugiang61.github.io/blob/master/src/firebase/contacts.firestore.js]
-[firebase-console][https://console.firebase.google.com/u/0/]
+[contact-me]: [https://thugiang61.github.io/home#contact-me]
+[cloud-firestore]: [https://firebase.google.com/docs/firestore]
+[firestore-instruction]: [https://firebase.google.com/docs/firestore/quickstart]
+[firebase-config-file]: [https://github.com/thugiang61/thugiang61.github.io/blob/master/src/firebase/contacts.firestore.js]
+[contacts-file]: [https://github.com/thugiang61/thugiang61.github.io/blob/master/src/firebase/contacts.firestore.js]
+[firebase-console]: [https://console.firebase.google.com/u/0/]
