@@ -7,9 +7,9 @@ Main sections:
 - Introduction: Main goal and theme settings.
 - About me: My information as well as other places to find me.
 - Projects: My old and current projects.
-- Contact me: Send me messages and let's get connected!
+- Contact me: Send me messages and let's get connected !
 
-The project is built with following main technologies: VueJS, Firebase, SCSS, VueMotion 
+The project is built with following main technologies: VueJS, Firebase, SCSS, VueMotion. 
 
 ## Project structure
   `my-portfolio`
