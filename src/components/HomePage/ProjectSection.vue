@@ -26,7 +26,7 @@
 
     <p>During my internship and working period,</p>
     <p>
-      I've been working on different projects, be it a out-source software
+      I've been working on different projects, be it an out-source software
       company and a logistics software company!
     </p>
   </div>
